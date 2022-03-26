@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIODATA</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <h1>BIODATA</h1>
+    <form>
+        <fieldset>
+            <legend>BIODATA</legend>
+            Name: <input type="text"><br> Email: <input type="text"><br> Phone no: <input type="text"><br> Sex: <input type="radio" name="Sex" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Sex" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Sex" value="Others" id="Others">
+            <label for="others">Others</label><br> Status: <input type="radio" name="Status" value="Single" id="Single">
+            <label for="Single">Single</label>
+            <input type="radio" name="Status" value="Married" id="Married">
+            <label for="Married">Married</label>
+            <input type="radio" name="Status" value="Others" id="Other">
+            <label for="others">Other</label><br> Age: <input type="radio" name="Age" value="15-20" id="15-20">
+            <label for="15-20">15-20</label>
+            <input type="radio" name="Age" value="21-30" id="21-30">
+            <label for="21-30">21-30</label>
+            <input type="radio" name="Age" value="above 40" id="above 40">
+            <label for="above 40">above 40</label>
+        </fieldset>
+    </form>
+    <br>
+
+    <ol>
+        <li><label for="yes_no_radio">Did you attend the interview?</label>
+            <p>
+                <input type="radio" name="yes_no" checked>Yes
+            </p>
+            <p>
+                <input type="radio" name="yes_no" checked>No
+            </p>
+        </li>
+        <li><label for="radio">Who ,interviewed you?</label>
+            <p>
+                <input type="radio" name="yes_no" checked>Mr Francis
+            </p>
+            <p>
+                <input type="radio" name="yes_no" checked>Mr Lebo
+                <br>
+                <input type="radio" name="yes_no" checked>Both
+            </p>
+        </li>
+        <li>
+            <form action>
+                <label for="">Rate your interview Session</label>
+                <select>
+<option value= "very good">VERY GOOD</option>
+<option value= "good">GOOD</option>
+<option value= "bad">BAD</option>
+<option value= "very bad">VERY BAD</option>
+            </select>
+            </form>
+        </li>
+        <li>
+            <form action>
+                <label for="">How did you hear about CuriosityXloring Academy</label>
+                <select multiple="multiple">
+                    <option value="Whatsapp">Whatsapp</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="facebook">FaceBook</option>
+                    <option value="Discorde">Discorde</option>
+                    <option value="twitter">Twitter</option>
+                    </select>
+            </form>
+        </li>
+        <p><strong>Note: Press control or shift key while clicking on the other options to enable multiple selections</strong></p>
+        <li>
+            <form>
+                <label for="what is">What is your expectation from the academy and any suggestions or recommendation in improving our services</label>
+                <textarea name="what is" id="what is"></textarea>
+            </form>
+        </li>
+
+
+        <br>
+        <a href="./Survey Form.html"><button>PREVIOUS</button></a>
+        <a href="./Thank you.html"><button>NEXT</button></a>
+    </ol>
+</body>
+
+</html>
